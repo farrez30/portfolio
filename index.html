@@ -7,7 +7,7 @@
     <title>Start</title>
     <style>
       body {
-        background: black;
+        background: rgb(0, 0, 0);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -40,18 +40,34 @@
 
       @keyframes pulse {
         0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      .development-text {
+        color: white;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-weight: 100;
       }
     </style>
   </head>
   <body>
-    <a href="./html/index.html" class="button">START</a>
+    <div class="container">
+      <div class="gear-wrapper">
+        <div class="gear">
+          <div class="gear-inner"></div>
+        </div>
+        <p class="development-text">
+          ⚠️⬇️ Under development...but feel free to view :D ⬇️⚠️
+        </p>
+      </div>
+      <a href="./html/index.html" class="button">START</a>
+    </div>
   </body>
 </html>
