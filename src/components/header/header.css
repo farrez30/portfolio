@@ -46,7 +46,7 @@
     display: none;
 }
 
-/* Active Link */
+/* Active link */
 .active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
@@ -99,7 +99,7 @@
         font-size: 1.2rem;
     }
 
-    .nav___close {
+    .nav__close {
         position: absolute;
         right: 1.3rem;
         bottom: .5rem;
