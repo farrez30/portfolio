@@ -12,8 +12,6 @@ import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Work from "./components/work/Work";
 
-
-
 function App() {
   return (
     <>
@@ -26,7 +24,7 @@ function App() {
         <Services />
         <Qualification />
         <Work />
-        
+
         <Testimonials />
         <Contact />
       </main>
